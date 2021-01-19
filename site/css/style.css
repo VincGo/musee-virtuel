@@ -1,0 +1,193 @@
+/* COMMUN */
+body{
+	width: 1263px;
+	margin: auto;
+	background: url("../images/stripes.gif");
+}
+
+body > div{
+	background-color: white;
+	padding: 50px;
+
+}
+
+.is-active{
+	background-color: #3c3c3c;
+}
+/* NAV BAR */
+header h1{
+	text-align: center;
+}
+
+nav{
+	background-color: #9f9f9f;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+}
+
+nav li{
+	list-style: none;
+	padding: 15px;
+}
+
+/* FOOTER */
+footer{
+	border-top: 1px solid #9f9f9f;
+	padding-top: 20px;
+	margin-top: 80px;
+}
+
+footer p{
+	text-align: center;
+}
+/* INDEX.HTML */
+figure{
+	width: 500px;
+	background-color: #9f9f9f;
+	margin: auto;
+}
+
+figcaption{
+	text-align: center;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+}
+
+article{
+	margin-top: 45px;
+}
+
+article div{
+	display: flex;
+}
+
+.more{
+	margin-bottom: 20px;
+}
+
+.more p{
+	margin: 0 0 0 5px;
+	padding-top: 5px
+}
+
+article > a{
+	text-decoration: none;
+	background-color: #9f9f9f;
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: white;
+}
+
+article > a:hover{
+	color: #3c3c3c;
+}
+
+.more a{
+	color: black;
+	text-decoration: none;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+.fleche{
+	display: block;
+	margin: 30px auto;
+}
+/* KLEE.HTML */
+/* MAIN */
+main{
+	display: flex;
+	justify-content: space-between;
+}
+
+main div{
+	width: 900px;
+}
+
+/* PAUL KLEE PRESENTATION */
+
+#paul-klee-presentation div{
+	display: flex;
+}
+
+#paul-klee-presentation p{
+	margin-left: 20px;
+}
+
+/* PAUL KLEE CITATION */
+
+#paul-klee-citation{
+	background-color: #9f9f9f;
+	border-radius: 10px;
+	padding: 25px;
+	margin-top: 40px;
+}
+
+#paul-klee-citation p{
+	text-align: center;
+	font-size: 25px;
+}
+
+#paul-klee-citation img:last-child{
+	display: block;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/* IMAGE ILLUSTRATION */
+
+#image-illustration{
+	display: flex;
+	justify-content: space-between;
+}
+
+aside{
+	width: 200px;
+	margin-top: 60px;
+}
+
+aside h3{
+	color: #9f9f9f;;
+}
+
+aside ul{
+	padding: 0;
+}
+
+aside li{
+	list-style: none;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+aside p{
+	margin-top: 0!important;
+	margin-left: 10px;
+}
+
+aside li img{
+	height: 18px;
+}
+
+#resaux-sociaux img:first-child{
+	margin-left: 10px
+}
+
+#resaux-sociaux img:nth-child(2){
+	margin: 0 15px
+}
+
+#expos-moment{
+	margin-top: 70px;
+}
+
